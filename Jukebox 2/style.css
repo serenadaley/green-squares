@@ -1,0 +1,292 @@
+* {
+    font-family: 'Righteous', regular;
+    margin: 0%; 
+    padding: 0%;
+}
+
+body {
+    background-color: #e8e1f2;
+}
+
+.nav-bar {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 2%;  
+}
+
+.jukebox {
+    height: 2px;
+    width: 2px;
+    padding: 0%;
+    justify-content: flex-start;
+}
+
+.nav-bar-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subscribe-btn {
+    border-radius: 150px;
+    border: solid 1.5px #D62D57;
+    background-color: #D62D57;
+    color: white;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.log-in-btn {
+    border-radius: 150px;
+    border: solid 1px #D62D57;
+    background-color: aliceblue;
+    color: #D62D57;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.hero {
+    background-image: url(img/hero-photo.png);
+    padding-left: 5%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    line-height: 250%;
+    max-width: 40%;
+    padding-left: 10%;
+    padding-top: 13%;
+}
+
+.hero-text p {
+    font-size: 11px;
+}
+
+.subscribe-today-btn {
+    border-radius: 100px;
+    border: solid 1px #D62D57;
+    background-color: #D62D57;
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: 250px;
+    padding: 0.5%;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+.pricing {
+    text-align: center;
+    line-height: 250%;
+    margin: 0 auto;
+    max-width: 1100px;   
+}
+
+.pricing h2 {
+    color: #0e88e6;
+}
+
+.pricing-paragraph {
+    color: #899cab;
+}
+
+
+.pricing-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* This class is used for all ul list in html which are located in the Basic, Plus, and Premium cards */
+.feature-list {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.sign-up-btn {
+    border-radius: 100px;
+    background-color: transparent;
+    color: white;
+    padding: 2% 15%;
+}
+
+.basic {
+    border: solid 1px #0e88e6;
+    border-radius: 10px;
+    background-color: #0e88e6;
+    color: white;
+
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
+.basic-sign-up {
+    width: 100%;
+    padding: inherit 15%;
+    margin-top: 15%;    
+}
+
+.plus {
+    border: solid 1px #5f46f0;
+    border-radius: 10px;
+    background-color: #5f46f0;
+    color: white;
+    
+    padding-left: 6%;
+    padding-top: 5%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+    
+}
+
+.plus-sign-up {
+    width: 100%;
+    padding: inherit 15%;
+    margin-top: 22.5%;    
+}
+
+.premium {
+    border: solid 1px #5823ad;
+    border-radius: 10px;
+    background-color: #5823ad;
+    color: white;
+
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
+.premium-sign-up {
+    width: 100%;
+    padding: inherit 15%;
+    margin-top: 15%;    
+}
+
+.features {
+    background-image: url(img/about-photo.png);
+    background-position: center;
+    background-size: auto 100%;
+    min-height: 720px;
+    min-width: 1366px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    color: white;
+    border: solid 2px black;
+    
+}
+
+.mini-icons {
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+h5 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.mini-icons p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 100%;
+}
+
+.stream {
+    align-items: center;
+    line-height: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.high-quality-audio {
+    line-height: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.millions-of-songs {
+    line-height: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.albums h2 {
+    color: #0e88e6;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 35px;
+}
+
+.albums p {
+    color: #899cab;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 20px;   
+}
+
+.grid-column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 2%; 
+}
+
+.grid-colum img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    margin-top: 1%;
+    background-color: #0e88e6;
+}
+
+.footer-jukebox {
+    height: 2px;
+    width: 2px;
+    padding: 0%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+}
